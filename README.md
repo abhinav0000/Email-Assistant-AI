@@ -1,7 +1,7 @@
 
 # 📧 Email Reply Assistant 🤖
 
-An AI-powered assistant that helps generate context-aware email replies with customizable tone options. Built with a **React + Vite** frontend, **Spring Boot** backend, and a **browser extension** for seamless usage across email platforms.
+An AI-powered assistant that helps generate context-aware email replies with customizable tone options. Built with a **React + Vite** frontend, **Spring Boot** backend, and a **browser extension** for seamless usage across Gmail.com.
 
 ---
 
