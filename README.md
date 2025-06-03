@@ -29,10 +29,10 @@ email-assistant-react/public/src                 → React + Vite frontend
 
 ## 📦 Tech Stack
 
-| Frontend        | Backend          | Extension     | Other        |
-|-----------------|------------------|---------------|--------------|
-| React + Vite    | Spring Boot (Java)| Manifest V3   | MUI (v5)     |
-| Axios           | REST API         | JavaScript    | Vite         |
+| Frontend        | Backend           | Extension                   | Other        |
+|-----------------|-------------------|-----------------------------|--------------|
+| React + Vite    | Spring Boot (Java)| Manifest V3                 | MUI (v5)     |
+| Axios           | REST API          | JavaScript, MutationObserver| Vite         |
 
 ---
 
@@ -64,10 +64,14 @@ Start development server:
 npm install
 npm run dev
 ```
+## 📸 Screenshots
 
----
+| WebPage | Response |
+|--------|----------|
+| ![App Screenshot](images/react-vite-webpage.png) | ![App Screenshot Response](images/reactPage-response.png) |
 
-### 🧩 Browser Extension - `email-assistant-ext/`
+
+### 🧩 Browser Extension (Reply with AI) - `email-assistant-ext/`
 Chrome extension to autofill email replies directly from the inbox.
 
 Steps:
