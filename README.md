@@ -90,11 +90,25 @@ Steps:
 
 ---
 
-## 🛠️ Todo
-- [ ] Add more tone options (e.g., Apologetic, Assertive)
-- [ ] Add language support
-- [ ] Deploy backend API to cloud
-- [ ] Package extension for Firefox
+## 🔑 API Key Setup (Google Gemini)
+
+To use this project, you must set up the **Google Gemini API key and endpoint** before running the backend.
+
+#### Steps:
+
+1. **Get your API key** from [Google AI Studio](https://makersuite.google.com/app/apikey).
+2. In your IDE (e.g., IntelliJ), go to:Run > Edit Configurations > Environment Variables
+3. Add the following environment variables:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
+```
+4. These are automatically picked up by the application using:
+```
+gemini.api.key=${GEMINI_API_KEY}
+gemini.api.url=${GEMINI_API_URL}
+```
 
 ---
 
