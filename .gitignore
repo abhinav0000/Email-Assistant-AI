@@ -1,0 +1,43 @@
+#key
+api key.txt
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build directories
+dist/
+build/
+target/
+out/
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.local
+application.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Chrome Extension build cache (if any)
+*.pem
+
+# Others
+coverage/
+*.tsbuildinfo
