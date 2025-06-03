@@ -19,9 +19,9 @@ An AI-powered assistant that helps generate context-aware email replies with cus
 ## 🗂️ Project Structure
 
 ```
-email-assistant            → Spring Boot backend
-email-assistant-ext        → Chrome Extension
-images                     → UI screenshots & assets
+email-assistant                                  → Spring Boot backend
+email-assistant-ext                              → Chrome Extension
+images                                           → UI screenshots & assets
 email-assistant-react/public/src                 → React + Vite frontend
 ```
 
