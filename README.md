@@ -22,7 +22,7 @@ An AI-powered assistant that helps generate context-aware email replies with cus
 email-assistant            → Spring Boot backend
 email-assistant-ext        → Chrome Extension
 images                     → UI screenshots & assets
-public/src                 → React + Vite frontend
+email-assistant-react/public/src                 → React + Vite frontend
 ```
 
 ---
